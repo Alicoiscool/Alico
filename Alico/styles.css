@@ -1,0 +1,104 @@
+/* ============================= */
+/* ===== Allgemeine Styles ===== */
+/* ============================= */
+
+/* Dein Code */
+
+/* ======================================= */
+/* ===== Section 1: Navigationszeile ===== */
+/* ======================================= */
+
+/* Dein Code */
+
+/* ================================ */
+/* ===== Section 2: Überblick ===== */
+/* ================================ */
+
+/* Dein Code */
+
+/* =============================== */
+/* ===== Section 3: Features ===== */
+/* =============================== */
+
+/* Dein Code */
+
+/* ================================== */
+/* ===== Section 4: Bewertungen ===== */
+/* ================================== */
+
+/* Dein Code *//* ================================== */
+/* ===== Section 4: Bewertungen ===== */
+/* ================================== */
+#bewertungen {
+  padding: 15%;
+}
+
+/* ============================= */
+/* ===== Section 5: Preise ===== */
+/* ============================= */
+
+/* Dein Code */
+
+/* ============================= */
+/* ===== Section 6: Footer ===== */
+/* ============================= */
+
+/* Dein Code */
+/* ============================= */
+/* ===== Allgemeine Styles ===== */
+/* ============================= */
+.grosser-titel {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.carossel-Bild {
+width:60%;
+border-radius: 100%;
+
+}
+
+.kleiner-titel {
+  font-size: 30px;
+}
+
+.section-style-2 {
+  background-color: gray;
+  color: black;
+}
+
+.section-style-1 {
+  background-color: white;
+  color: black;
+}
+
+/* ================================ */
+/* ===== Section 2: Überblick ===== */
+/* ================================ */
+
+#überblick {
+	padding: 10%;
+}
+
+.feature-box {
+	padding: 5%;
+}
+
+.app-bild {
+	
+  padding: 10%;
+  width: 100%;
+}
+.btn{
+ margin-top:10%;
+ 
+
+}
+.app-bild {
+  width: 125%;
+  border-radius: 100%;
+  transform: rotate(12deg);
+}
+.icon:hover {
+  color: #617143;
+}
