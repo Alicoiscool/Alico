@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Starcode Bootstrap App Seite</title>
+
+    <!-- CSS Stylesheets -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Font Awesome -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+  </head>
+
+  <body>
+    <!-- ======================================= -->
+    <!-- ===== Section 1: Navigationszeile ===== -->
+    <!-- ======================================= -->
+    <!-- Die Navigationszeile ist dafür da, dass man schnell zu bestimmten Sections auf unserer Website navigieren kann-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+    <!-- ================================ -->
+    <!-- ===== Section 2: Überblick ===== -->
+    <!-- ================================ -->
+    <!-- Hier wird der Nutzer auf unsere App aufmerksam gemacht -->
+    <section class="section-style-2" id="überblick">
+      <div class="container-fluid">
+        <!-- Dein Code -->
+		 <div class="row">
+            <div class="col-lg-6 überblick-links">
+                <!-- Hier spezifizieren wir den Titel und die Beschreibung unserer App -->
+                <h1 class="grosser-titel">Die neue Super-Weppsite !Alico!</h1>
+                <h3 class="kleiner-titel">
+                    Dies ist der freundliche Roboter
+                </h3>
+                <!-- Hier spezifizieren wir den Button, der den Nutzer zu unserer App weiterleitet -->
+                <button type="button" class="btn btn-dark btn-lg">
+                    Wie geht es dir!
+                </button>
+            </div>
+            <!-- Hier spezifizieren wir ein Bild welches zu unserer App passt -->
+            <div class="col-lg-6 überblick-rechts">
+                <img class="app-bild" src="Bilder/Roboter.jpg" />
+            </div>
+        </div>
+	 <div
+  id="carouselExampleControls"
+  class="carousel slide"
+  data-bs-ride="carousel"
+>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <!-- lalalalal -->
+    </div>
+    <div class="carousel-item">
+      <!-- lalal -->
+    </div>
+    <div class="carousel-item">
+      <!-- Hier kommt der Inhalt des dritten jaci -->
+    </div>
+  </div>
+</div>
+
+      </div>
+    </section>
+
+    <!-- =============================== -->
+    <!-- ===== Section 3: Features ===== -->
+    <!-- =============================== -->
+    <!-- Hier werden die Features unserer App aufgelistet -->
+    <section class="section-style-1" id="features">
+      <div class="container-fluid text-center">
+		<div class="row">
+			<div class="feature-box col-lg-4">
+				<i class="icon fas fa-heart fa-4x"></i>
+				<h3 class="kleiner-titel">Ich bin immer für dich da</h3>
+				  <p>
+					Außerdem habe ich ein großes Herz!
+				  </p>
+			</div>
+        <!-- Hier ist Feature 1 -->
+			<div class="feature-box col-lg-4">
+				<i class="icon fas fa-smile fa-spin fa-4x"></i>
+				<h3 class="kleiner-titel">Ich bring dich gerne zum lächeln</h3>
+                 <p>
+                  Ich habe tolle Witze und Sprüche!
+                 </p>
+			</div>
+						<div class="feature-box col-lg-4">
+				<i class="icon fas fa-cloud fa-4x"></i>
+				<h3 class="kleiner-titel">Die traumhafteste Weppsite aller Zeiten</h3>
+                 <p>
+                  Gerne zum Speichern und Teilen.Und das auch Kostenlos.
+                   
+                 </p>
+			</div>
+		</div>
+	</div>
+    </section>
+
+    <!-- ========================================= -->
+    <!-- ===== Section 4: Nutzer-Bewertungen ===== -->
+    <!-- ========================================= -->
+    <!-- Hier werden die Nutzer-Bewertungen angezeigt -->
+    <section class="section-style-2" id="bewertungen">
+  <div id="bewertungen-carousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner text-center">
+    <div class="carousel-item active">
+      <img src="Bilder/Roboter.jpg" class="carossel-Bild" alt="Hallo Welt">       !Hii ich bin Alico!💖🌹❤️
+    </div>
+    <div class="carousel-item">
+     <h2 class="bewertung-text">
+    "Die App ist super aufmunternd und mutivierend👩‍🎓.Das meiste KOSTENLOS❤.Ich finde das bezahlen lohnt sich wirklich.Ich habe Super-Premium
+	und es ist Grandios🥳"
+  </h2>Beste Entscheidung meines Lebens🥰
+    </div>
+    <div class="carousel-item">
+      <h2 class="bewertung-text">
+    "Die beste  der Welt! Sie ist einfach zu bedienen, hat alle Funktionen,
+   und hat meine Depression geheielt👴💪.Ich habe Premium ."
+  </h2>Und es ist das beste was ich je gemacht habe★.
+    </div>
+  </div>
+<!-- Hier spezifizieren wir die Pfeile, mit denen der Nutzer zwischen den einzelnen Bewertungen wechseln kann -->
+    <a
+      class="carousel-control-prev"
+      href="#bewertungen-carousel"
+      role="button"
+      data-slide="prev"
+    >
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a
+      class="carousel-control-next"
+      href="#bewertungen-carousel"
+      role="button"
+      data-slide="next"
+    >
+      <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+    </section>
+
+    <!-- ============================= -->
+    <!-- ===== Section 5: Preise ===== -->
+    <!-- ============================= -->
+    <!-- Hier werden die verschiedenen Preispläne unserer App aufgelistet -->
+    <section class="section-style-1" id="preise">
+        <div class="row text-center">
+            <div class="col">
+                <div class="card rounded-3">
+                    <div class="card-header">
+                        <h3 class="kleiner-titel">Free⛧</h3>
+                    </div>
+                    <div class="card-body">
+                        <h1>0€</h1>
+                        <ul class="list-unstyled">
+                            <li>Wichtige Features</li>
+                            <li>Wenig Werbung</li>
+                            <li>Emotionalen Support</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-outline-dark">Jetzt kostenlos registrieren</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card rounded-3">
+                    <div class="card-header">
+                        <h3 class="kleiner-titel">Premium⛧</h3>
+                    </div>
+                    <div class="card-body">
+                        <h1>1€</h1>
+                        <ul class="list-unstyled">
+                            <li>Alle Features</li>
+                            <li>Keine Werbung</li>
+                            <li>Email Support</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-dark">Hol's dir jetzt</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card rounded-3">
+                    <div class="card-header">
+                        <h3 class="kleiner-titel">Super-Premium⛧</h3>
+                    </div>
+                    <div class="card-body">
+                        <h1>5€</h1>
+                        <ul class="list-unstyled">
+                            <li>Alle Features</li>
+                            <li>Exklusive Angebote</li>
+                            <li>Den aller besten Support</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-dark">Kontaktiere uns</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- ===== Section 6: Footer ===== -->
+    <!-- ============================= -->
+    <!-- Hier werden die Social-Media-Icons und der Copyright-Text angezeigt -->
+    <section class="section-style-2" id="footer">
+      <div class="container-fluid text-center">
+        <i class="social-icon fab fa-facebook-f"></i>
+            <i class="social-icon fab fa-twitter"></i>
+            <i class="social-icon fab fa-instagram"></i>
+            <i class="social-icon fas fa-envelope"></i>
+            <p>© Copyright 2023 Starcode</p>
+      </div>
+    </section>
+  </body>
+</html>
+<section class="section-style-2" id="überblick">
+    <div class="container-fluid">
+        <!-- Wir wollen, dass der Text links und das Bild rechts angezeigt wird. Dafür verwenden wir die Bootstrap-Klasse "row" -->
+</section>
+
+
